@@ -11,9 +11,18 @@
 
 
     </head>
-    <body>
-        <h2> Student Management System</h2>
-        <a href="/student-app/students/index.php">Home</a>
-        <a href="/student-app/students/create.php">Add Student</a>
-        <hr>
-    
+
+ <body>
+    <h2> Student Management System</h2>
+    <a href="/student-app/students/index.php">Home</a>
+    <a href="/student-app/students/create.php">Add Student</a>
+    <hr>
+
+    <form action="save_student.php" method="POST">
+        <label>Student Name:</label>
+        <input type="text" name="name" required>
+        <button type="submit">Save Student</button>
+    </form>
+
+
+
