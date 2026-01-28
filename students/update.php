@@ -1,5 +1,7 @@
 <?php
-require "../config/db.php";
+require_once __DIR__ . '/../config/db.php';
+
+
 
 $id = (int) $_POST['id'];
 $name = mysqli_real_escape_string($conn, $_POST['name']);
@@ -14,7 +16,7 @@ mysqli_query($conn,
     email = '$email',
     roll_number = '$roll',
     class = '$class',
-    marks = $marks
+    marks = '$marks'
     WHERE id = $id
     ");
     header("Location: index.php");
