@@ -1,5 +1,8 @@
 <?php 
-require_once __DIR__.'/config/db.php';
+require_once __DIR__ . '/../config/db.php';
+
+
+
 include "../partials/header.php";
 
 $id = (int) $_GET['id'];
