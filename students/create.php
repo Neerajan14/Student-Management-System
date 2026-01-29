@@ -6,7 +6,7 @@
 <p>Roll No:<input type="text" name="roll_number" required></p>
 <p>Class:<input type="text" name="class"></p>
 <p>Marks:<input type="number" name="marks" min="0" max="100"></p>
-<button type="submit">Save</buttom>
+<button type="submit">Save</button>
 
 </form>
 <?php include "../partials/footer.php"; ?>

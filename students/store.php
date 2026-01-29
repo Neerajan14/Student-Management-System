@@ -13,7 +13,7 @@ if ($marks<0 || $marks>100){
     die("Marks should be between 0 and 100");
 }
 
-$sql = "INSERT INTO students (name, email, roll_number, class, marks) VALUES ('$name', '$email', '$rol_number', '$class', $marks)";
+$sql = "INSERT INTO students (name, email, roll_number, class, marks) VALUES ('$name', '$email', '$roll_number', '$class', $marks)";
 mysqli_query($conn, $sql);
 header("Location: index.php");
 exit;
