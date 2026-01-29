@@ -5,7 +5,7 @@ require_once __DIR__ . '/../config/db.php';
 
 $name = mysqli_real_escape_string($conn, $_POST['name']);
 $email = mysqli_real_escape_string($conn, $_POST['email']);
-$rool_number = mysqli_real_escape_string($conn, $_POST['roll_number']);
+$roll_number = mysqli_real_escape_string($conn, $_POST['roll_number']);
 $class = mysqli_real_escape_string($conn, $_POST['class']);
 $marks = mysqli_real_escape_string($conn, $_POST['marks']);
 
